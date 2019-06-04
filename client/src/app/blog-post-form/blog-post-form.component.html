@@ -1,0 +1,36 @@
+<div class="jumbotron justify-content-center">
+  <div class="row jumbotron justify-content-center">
+
+    <div class="col-2"></div>
+    <div class="col-8" id="blogform">
+      <div class="row justify-content-center">
+        <div class="centerText">
+          <h2>Novo Post</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <label type="title">Autor</label>
+      </div>
+      <div class="row justify-content-center">
+        <input type="author" [(ngModel)] = "blogPost.author">
+      </div>
+      <div class="row justify-content-center">
+        <label type="title">Titulo</label>
+      </div>
+      <div class="row justify-content-center">
+        <input type="title" [(ngModel)] = "blogPost.title">
+      </div>
+      <div class="row justify-content-center">
+        <label type="text">Texto</label>
+      </div>
+      <div class="row justify-content-center">
+        <textarea type="text" [(ngModel)] = "blogPost.mainText"></textarea>
+      </div>
+      
+      <div class="row justify-content-center">
+        <button class="btn btn-dark" (click)="newPost();">Criar</button>
+      </div>
+    </div>
+    <div class="col-2"></div>
+  </div>
+</div>

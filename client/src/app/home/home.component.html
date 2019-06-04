@@ -1,55 +1,42 @@
-<link rel="stylesheet" type="text/css" href="./assets/bootstrap.min.css">
-<header class="header clearfix">
-  <nav>
-      <ul class="nav nav-pills float-right">
-          <li class="nav-item">
-              <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="#">Add</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="#">Logout</a>
-          </li>
-      </ul>
-  </nav>
-  <h3 class="text-muted">Angular Blog App</h3>
-</header>
+<div class="jumbotron jumboGlass jumbohome">
 
-<main role="main">
-
-  <div class="jumbotron">
-      <h1 class="display-3">Lorem ipsum</h1>
-      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <p><a class="btn btn-lg btn-success" href="#" role="button">Read More ...</a></p>
-  </div>
-
-  <div class="row marketing">
-      <div class="col-lg-6">
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-          <h4>Subheading</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-          <h4>Subheading</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+  <div class="row align-items-center">
+    <div class="col-sm-2"><img src="assets/images/virus.png" class="jumboimg"></div>
+    <div class="jumbotron col-sm-8 row">
+      <div class="col-sm-3">
+        <img src="assets/images/640.png" class="photoHome" />
+      </div>
+      <div class="col-sm-9">
+        <h2>Pedro "Nasaphreak" Rodrigues</h2>
+        <p>
+          Sou estudante de Engenharia de Computação, professor de física e Desenvolvedor web.
+          Sou um entusiasta da Segurança da Informação, com uma queda pela Engenharia Social.
+        </p>
       </div>
 
-      <div class="col-lg-6">
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+    </div>
+    <div class="col-sm-2"></div>
 
-          <h4>Subheading</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-          <h4>Subheading</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-      </div>
   </div>
+  <div class="row align-items-center">
+      <div class="col-sm-2"></div>
+      <div class="jumbotron jumbohome col-sm-8 row">
+        <div class="col-sm-3 photobg">
+          <img src="assets/images/transparentLogo.png" class="photoHome" />
+        </div>
+        <div class="col-sm-9">
+          <h2>Venho te desejar Boas Vindas!!!</h2>
+          <p>
+            Sou Parallax, uma criação de Pedro "NasaPhreak" Rodrigues .
+            Sou uma empresa especializada em desenvolvimento de sites e aplicações web.
+            Também gerencio campanhas SEO para melhorar a colocação do seu Site no Google Search.
+            Entre em contato <a routerLink="/contact">aqui</a> e vamos conversar sobre suas necessidades.
+          </p>
+        </div>
+      </div>
+      <div class="col-sm-2"></div>
+  
+    </div>
+    <app-login></app-login>
+</div>
 
-</main>
-
-<footer class="footer">
-  <p>&copy; Company 2017</p>
-</footer>

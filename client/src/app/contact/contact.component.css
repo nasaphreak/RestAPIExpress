@@ -1,0 +1,27 @@
+.photoHome{
+    width: 100%;
+}
+
+.jumbocontact {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 1rem;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 4rem 1rem 1rem;
+}
+
+.jumbotron{
+    padding: 4rem 1rem 1rem;
+}
+
+.jumboimg{
+    width: 80%;
+}
+
+.linkhidden{
+    text-decoration: none;
+    color: inherit;
+    
+}

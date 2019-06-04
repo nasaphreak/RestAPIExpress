@@ -5,8 +5,9 @@ const Schema = mongoose.Schema;
 const userSchema = new Schema({
   username: { type: String, required: true, unique: true },
   password: { type: String, required: true },
-  name: { type: String }
-}, { collection : 'user' });
+  name: { type: String },
+  role: {type: String}
+}, { collection : 'users' });
  
 const User = mongoose.model('User', userSchema);
  

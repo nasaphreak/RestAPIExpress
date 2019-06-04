@@ -1,0 +1,9 @@
+
+  <div *ngIf="selectedPost">
+    <h2 class="postTitle">{{selectedPost.title}}</h2>
+    <p class="postAuthor">{{selectedPost.author}}</p>
+    <div class="jumbotron jumboAux">
+      <p class="postAux">{{selectedPost.aux_text}}</p>
+    </div>
+    <p class="postText">{{selectedPost.main_text}}</p>
+  </div>
