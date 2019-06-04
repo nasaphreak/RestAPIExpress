@@ -6,6 +6,7 @@ This is the First Version of a Login System.
 - It will become a blog application. 
 - I'm reading about how to implement JWT for login persistence.
 - I'll add validations to the forms, to avoid code Injection.
+- Prepare the Deploy with Docker to run on a Cloud Server.
 
 # Important: This isn't a secure App!!!
 
