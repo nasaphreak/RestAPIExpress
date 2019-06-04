@@ -1,0 +1,8 @@
+<h2>Posts</h2>
+<ul class="posts postList">
+  <li *ngFor="let post of blogPosts" (click)="selectPost(post)">
+    <h6>{{post.date}}</h6>
+    <h5>{{post.title}}</h5>
+    <h6>{{post.author}}</h6><br />
+  </li>
+</ul>

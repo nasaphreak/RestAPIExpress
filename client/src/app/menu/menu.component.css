@@ -1,0 +1,30 @@
+.jumbotron{
+    width: auto;
+    height: 10px;
+    padding-top: 10px;
+    margin: 10px;
+    margin-top: 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+.navbar {
+    height: 50px;
+}
+
+.btn-dark{
+    color: #fff;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    opacity: 1;
+}
+.btn-dark:hover{
+    color: #fff;
+    font-weight: bolder;
+    background-color: #575757;
+    border-color: #575757;
+    opacity: 1;
+}
+
