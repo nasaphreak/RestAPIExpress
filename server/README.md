@@ -1,4 +1,6 @@
 # Server
 
 This folder contains the express API project,
-you will need to run the server.
+I used mongoose to connect to a mongoDB database.
+
+
