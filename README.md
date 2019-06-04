@@ -3,7 +3,7 @@
 This is the First Version of a Login System.
 
 # Objectives/Next Steps
-- It'll become an blog application. 
+- It will become an blog application. 
 - I'm reading about how to implement JWT for login persistence.
 - I'll add validations to the forms, to avoid code Injection.
 
